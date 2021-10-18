@@ -9,6 +9,9 @@ class Person {
     sum(){
         return 'prototype : '+(this.first+this.second);
     }
+    // avg(){
+    //     return (this.first+this.second)/2;
+    // }
 }
 
 let kim = new Person('kim',10,20);
